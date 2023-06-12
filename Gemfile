@@ -5,7 +5,7 @@ gem 'rest-client'
 gem 'byebug'
 gem 'stripe'
 gem 'dotenv'
-
+cd
 gem 'selenium-webdriver'
 gem 'capybara'
 gem 'capybara-screenshot'

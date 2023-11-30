@@ -28,7 +28,8 @@ function Payment() {
 
   return (
     <>
-      <h1>React Stripe and the Payment Element</h1>
+      <h1>Understanding Stripe and the Payment Element</h1>
+    <h4>Use 4242 4242 4242 4242 as the default card number for Stripe and a date in the future for Succesful testing. CVC can be any 3-digit number</h4>
       {clientSecret && stripePromise && (
         <Elements stripe={stripePromise} options={{ clientSecret }}>
           <CheckoutForm />
